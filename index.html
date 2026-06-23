@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="zh-Hant"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>南北瓦楞紙器股份有限公司｜客製化瓦楞紙箱包材</title>
+<meta name="description" content="南北瓦楞紙器股份有限公司，成立於民國76年。專營客製化瓦楞紙箱、刀插板、隔板、間隔板與披薩盒，從尺寸圖到出貨與工廠直接溝通，小量也接單。">
+<link rel="canonical" href="https://leepeter121.github.io/">
+<meta name="theme-color" content="#0e1410">
+<!-- Open Graph / 社群連結預覽縮圖（Messenger・Teams・LINE 等） -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="南北瓦楞紙器股份有限公司">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://leepeter121.github.io/">
+<meta property="og:title" content="南北瓦楞紙器股份有限公司｜客製化瓦楞紙箱包材">
+<meta property="og:description" content="成立於民國76年，專營客製化瓦楞紙箱、刀插板、隔板、間隔板與披薩盒。與工廠直接溝通，小量也接單。">
+<meta property="og:image" content="https://leepeter121.github.io/hero_boxes.jpg">
+<meta property="og:image:secure_url" content="https://leepeter121.github.io/hero_boxes.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="896">
+<meta property="og:image:alt" content="南北瓦楞紙器客製化瓦楞紙箱產品">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="南北瓦楞紙器股份有限公司｜客製化瓦楞紙箱包材">
+<meta name="twitter:description" content="成立於民國76年，專營客製化瓦楞紙箱、刀插板、隔板、間隔板與披薩盒。與工廠直接溝通，小量也接單。">
+<meta name="twitter:image" content="https://leepeter121.github.io/hero_boxes.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-dark:#0e1410; --bg-darker:#080b09;
+  --bg-light:#f3f5f1; --bg-soft:#e7ebe2;
+  --accent:#6b8e3a; --accent-bright:#9ec94a; --accent-deep:#2e3b22; --green-ink:#557a2c;
+  --steel:#9aa896;
+  --text-light:#f1f4ee; --text-muted-light:rgba(241,244,238,.62);
+  --text-dark:#1a1f17; --text-muted-dark:rgba(26,31,23,.58);
+  --line-light:rgba(241,244,238,.10);
+  --radius:24px; --radius-lg:36px;
+  --maxw:1200px;
+  --ease:cubic-bezier(0.22,1,0.36,1);
+  --transition:all .5s cubic-bezier(0.22,1,0.36,1);
+  --t-fast:all .18s cubic-bezier(0.22,1,0.36,1);
+  --fd:'Manrope',"PingFang TC","Microsoft JhengHei","Noto Sans TC",-apple-system,system-ui,sans-serif;
+  --fm:"SFMono-Regular",ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--fd);background:var(--bg-dark);color:var(--text-light);overflow-x:hidden;-webkit-font-smoothing:antialiased;text-wrap:pretty}
+a{color:inherit;text-decoration:none}
+svg{display:block}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font:600 12px/1 var(--fm);letter-spacing:.2em;text-transform:uppercase;color:var(--accent-bright)}
+.eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--accent-bright)}
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+:focus-visible{outline:2px solid var(--accent-bright);outline-offset:3px;border-radius:4px}
+
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:16px 32px;max-width:var(--maxw);margin:0 auto;background:rgba(8,11,9,.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line-light);transition:var(--t-fast)}
+.nav.scrolled{top:14px;left:16px;right:16px;padding:13px 22px;background:rgba(8,11,9,.74);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--line-light);border-radius:100px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.12rem;letter-spacing:-.01em}
+.brand .mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--accent-bright),var(--accent));display:grid;place-items:center;color:#10160c;flex:none}
+.brand small{display:block;font:600 9px/1 var(--fm);letter-spacing:.14em;color:var(--text-muted-light);margin-top:3px}
+.brand .name{display:flex;flex-direction:column;opacity:0;max-width:0;overflow:hidden;white-space:nowrap;transition:opacity .3s var(--ease),max-width .35s var(--ease)}
+.nav.scrolled .brand .name{opacity:1;max-width:240px}
+.nav-links{display:flex;gap:30px;font-size:.92rem;font-weight:600;color:var(--text-muted-light)}
+.nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--text-light)}
+.nav-cta{padding:11px 22px;border-radius:100px;background:var(--accent-bright);color:#10160c;font-weight:700;font-size:.9rem;transition:var(--t-fast)}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(158,201,74,.35)}
+.nav-toggle{display:none;width:42px;height:42px;border:0;background:none;cursor:pointer}
+.nav-toggle span{display:block;width:22px;height:2px;background:var(--text-light);margin:5px auto;transition:transform .25s var(--ease),opacity .2s}
+.nav-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-toggle.open span:nth-child(2){opacity:0}
+.nav-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:120px 0 72px;overflow:hidden;background:radial-gradient(120% 90% at 80% -10%,#1a241a 0%,var(--bg-dark) 55%)}
+.hero-grid{position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:repeating-linear-gradient(0deg,transparent 0 47px,rgba(158,201,74,.06) 47px 48px),repeating-linear-gradient(90deg,transparent 0 47px,rgba(158,201,74,.06) 47px 48px);
+  -webkit-mask-image:radial-gradient(120% 85% at 85% 0%,#000 30%,transparent 72%);mask-image:radial-gradient(120% 85% at 85% 0%,#000 30%,transparent 72%)}
+.hero-art{position:absolute;right:-20px;top:50%;transform:translateY(-50%);width:min(42vw,520px);height:min(68vh,520px);z-index:0;opacity:.9;overflow:hidden;border-radius:var(--radius-lg);transition:opacity 0.3s ease}
+.hero-art:hover{opacity:1}
+.hero-doodle{display:none}
+@keyframes hd-float-a{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes hd-float-b{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@keyframes hd-tw{0%,100%{opacity:.18}50%{opacity:.6}}
+.hero-doodle .b1{animation:hd-float-a 4.2s var(--ease) infinite}
+.hero-doodle .b2{animation:hd-float-b 5.4s var(--ease) infinite}
+.hero-doodle .b3{animation:hd-float-a 3.6s var(--ease) infinite .6s}
+.hero-doodle .tw{animation:hd-tw 2.8s ease-in-out infinite}
+.hero-doodle .tw2{animation:hd-tw 3.4s ease-in-out infinite .9s}
+.carousel-container{position:relative;width:100%;height:100%;overflow:hidden;border-radius:var(--radius-lg)}
+.carousel-track{position:relative;width:100%;height:100%}
+.carousel-slide{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 0.8s ease-in-out;display:block}
+.carousel-slide.active{opacity:1;z-index:1}
+.carousel-dots{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:10}
+.carousel-dots .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.35);cursor:pointer;transition:all 0.25s ease}
+.carousel-dots .dot:hover{background:rgba(255,255,255,0.7)}
+.carousel-dots .dot.active{background:var(--accent-bright);width:18px;border-radius:4px}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5.4rem);line-height:1.02;letter-spacing:-.03em;font-weight:800;max-width:17ch}
+.hero h1 em{font-style:normal;color:var(--accent-bright)}
+.hero-brand{display:inline-flex;align-items:center;gap:13px;font-size:clamp(1.2rem,2.6vw,1.8rem);font-weight:800;letter-spacing:.01em;color:var(--text-light);margin-bottom:14px}
+.hero-brand::before{content:"";width:30px;height:3px;border-radius:2px;background:var(--accent-bright);flex:none}
+.hero-brand small{font:600 .62em/1 var(--fm);letter-spacing:.14em;color:var(--accent-bright);margin-left:2px}
+.hero-sub{margin-top:24px;max-width:46ch;font-size:clamp(1rem,1.5vw,1.2rem);line-height:1.6;color:var(--text-muted-light)}
+.hero-actions{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
+.btn-primary{padding:15px 28px;border-radius:100px;background:var(--accent-bright);color:#10160c;font-weight:700;font-size:1rem;transition:var(--t-fast)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 14px 38px rgba(158,201,74,.42)}
+.btn-ghost{padding:15px 26px;border-radius:100px;border:1px solid rgba(241,244,238,.25);font-weight:600;font-size:1rem;color:var(--text-light);transition:var(--t-fast)}
+.btn-ghost:hover{background:rgba(241,244,238,.08);border-color:rgba(241,244,238,.45)}
+.hero-meta{margin-top:46px;display:flex;gap:40px;flex-wrap:wrap}
+.hero-meta .m-num{font-size:1.5rem;font-weight:800;letter-spacing:-.01em}
+.hero-meta .m-lbl{font-size:.84rem;color:var(--text-muted-light);margin-top:3px}
+
+/* marquee */
+.marquee-section{padding:42px 0;border-top:1px solid var(--line-light);border-bottom:1px solid var(--line-light);background:var(--bg-darker)}
+.marquee-label{text-align:center;font:600 12px/1 var(--fm);letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted-light);margin-bottom:26px}
+.marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.marquee-track{display:flex;gap:56px;width:max-content;animation:scroll-x 36s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-track .logo{display:flex;align-items:center;gap:11px;font-weight:700;font-size:1.1rem;color:var(--text-muted-light);white-space:nowrap}
+.marquee-track .logo svg{color:var(--accent-bright)}
+@keyframes scroll-x{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* light capability section */
+.section-light{background:var(--bg-light);color:var(--text-dark)}
+.section-light .eyebrow{color:var(--green-ink)}.section-light .eyebrow .dot{background:var(--green-ink)}
+.cap{padding:108px 0}
+.cap-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap;margin-bottom:52px}
+.cap-head h2{font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.05;letter-spacing:-.03em;font-weight:800;max-width:17ch}
+.cap-head p{max-width:38ch;color:var(--text-muted-dark);font-size:1.05rem;line-height:1.6}
+.cap-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cap-card{background:#fff;border:1px solid rgba(26,31,23,.07);border-radius:var(--radius);padding:28px 24px;min-height:210px;display:flex;flex-direction:column;transition:transform .22s var(--ease),box-shadow .22s var(--ease)}
+.cap-card:hover{transform:translateY(-6px);box-shadow:0 22px 50px rgba(26,31,23,.12)}
+.cap-card.accent{background:var(--accent-deep);color:var(--text-light)}
+.cap-ico{width:46px;height:46px;border-radius:13px;background:var(--bg-soft);display:grid;place-items:center;color:var(--green-ink)}
+.cap-card.accent .cap-ico{background:rgba(158,201,74,.18);color:var(--accent-bright)}
+.cap-card h3{font-size:1.18rem;font-weight:700;margin-top:auto;letter-spacing:-.01em}
+.cap-card p{font-size:.9rem;color:var(--text-muted-dark);margin-top:8px;line-height:1.5}
+.cap-card.accent p{color:rgba(241,244,238,.66)}
+
+/* services (dark) */
+.services{padding:118px 0;background:var(--bg-dark)}
+.services-head{text-align:center;margin-bottom:56px}
+.services-head h2{font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.05;letter-spacing:-.03em;font-weight:800;margin-top:16px}
+.services-head p{margin:16px auto 0;max-width:48ch;color:var(--text-muted-light);font-size:1.05rem;line-height:1.6}
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.svc-card{position:relative;border-radius:var(--radius-lg);overflow:hidden;min-height:430px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;border:1px solid var(--line-light);background:linear-gradient(165deg,#19231a,#0e1410);transition:transform .22s var(--ease),border-color .22s var(--ease)}
+.svc-card:hover{transform:translateY(-6px);border-color:rgba(158,201,74,.45)}
+.svc-art{position:absolute;left:0;right:0;top:0;height:62%;overflow:hidden}
+.svc-art img{width:100%;height:100%;object-fit:cover;opacity:.75;transition:transform .8s var(--ease)}
+.svc-card:hover .svc-art img{transform:scale(1.05)}
+.svc-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,20,16,0) 38%,rgba(8,11,9,.92) 100%);z-index:1}
+.svc-body{position:relative;z-index:2;min-height:208px;display:flex;flex-direction:column;align-items:flex-start}
+.svc-tag{display:inline-flex;padding:7px 14px;border-radius:100px;background:rgba(158,201,74,.16);color:var(--accent-bright);font:600 12px/1 var(--fm);letter-spacing:.08em}
+.svc-card h3{font-size:1.5rem;font-weight:700;line-height:1.2;letter-spacing:-.01em;margin-top:15px;min-height:2.4em}
+.svc-card p{margin-top:9px;color:var(--text-muted-light);font-size:.95rem;line-height:1.55}
+.svc-arrow{margin-top:16px;display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.92rem;color:var(--accent-bright)}
+
+/* process (light) */
+.proc{padding:108px 0}
+.proc-head{max-width:560px;margin-bottom:46px}
+.proc-head h2{font-size:clamp(2rem,4.6vw,3.2rem);line-height:1.05;letter-spacing:-.03em;font-weight:800;margin-top:16px}
+.proc-head p{color:var(--text-muted-dark);font-size:1.05rem;margin-top:14px}
+.flow{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid rgba(26,31,23,.1)}
+.flow li{padding:24px 24px 0;border-left:1px solid rgba(26,31,23,.1);position:relative}
+.flow li:first-child{border-left:0;padding-left:0}
+.flow li::before{content:"";position:absolute;top:-2px;left:0;width:42px;height:2px;background:var(--green-ink)}
+.flow li:first-child::before{left:0}
+.flow .step{font:700 13px/1 var(--fm);letter-spacing:.12em;color:var(--green-ink)}
+.flow h3{font-size:1.12rem;margin:12px 0 7px;color:var(--text-dark)}
+.flow p{font-size:.92rem;color:var(--text-muted-dark);max-width:24ch}
+
+/* cta */
+.cta{padding:120px 0;background:var(--bg-darker)}
+.cta-inner{position:relative;border-radius:44px;overflow:hidden;padding:84px 48px;text-align:center;background:linear-gradient(135deg,var(--accent-deep),#1c2616);border:1px solid rgba(158,201,74,.28)}
+.cta-inner::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(158,201,74,.22),transparent 60%)}
+.cta-inner>*{position:relative;z-index:1}
+.cta .eyebrow{color:#cfe6a0}.cta .eyebrow .dot{background:#cfe6a0}
+.cta h2{font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.04;letter-spacing:-.03em;font-weight:800;margin:18px auto 0;max-width:18ch;color:#fff}
+.cta p{margin:18px auto 32px;max-width:46ch;color:rgba(241,244,238,.82);font-size:1.08rem}
+.cta .btn-light{padding:16px 30px;border-radius:100px;background:var(--accent-bright);color:#10160c;font-weight:700;font-size:1rem;display:inline-block;transition:var(--t-fast)}
+.cta .btn-light:hover{transform:translateY(-3px);box-shadow:0 14px 38px rgba(158,201,74,.4)}
+
+/* footer */
+.footer{background:var(--bg-darker);padding:70px 0 38px;border-top:1px solid var(--line-light)}
+.footer-top{display:flex;justify-content:space-between;gap:50px;flex-wrap:wrap;margin-bottom:50px}
+.footer-brand{max-width:32ch}
+.footer-brand p{margin-top:15px;color:var(--text-muted-light);font-size:.94rem;line-height:1.6}
+.footer-cols{display:flex;gap:64px;flex-wrap:wrap}
+.footer-col h4{font:600 12px/1 var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted-light);margin-bottom:15px}
+.footer-col a{display:block;margin-bottom:11px;font-size:.95rem;color:rgba(241,244,238,.8);transition:var(--t-fast)}
+.footer-col a:hover{color:var(--accent-bright)}
+.footer-info{font-size:.94rem;line-height:1.9;color:rgba(241,244,238,.8)}
+.footer-bot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;padding-top:24px;border-top:1px solid var(--line-light);font-size:.84rem;color:var(--text-muted-light)}
+
+@media(max-width:980px){
+  .cap-grid{grid-template-columns:repeat(2,1fr)}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .flow{grid-template-columns:1fr 1fr}
+  .flow li:nth-child(3){border-left:0;padding-left:0}.flow li:nth-child(3)::before{left:0}
+  .flow li:nth-child(n+3){border-top:1px solid rgba(26,31,23,.1);padding-top:24px}
+  .nav-toggle{display:block}
+  .nav-cta{margin-left:auto;margin-right:8px;padding:9px 16px;white-space:nowrap}
+  .nav-links{position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:rgba(8,11,9,.97);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--line-light);border-top:0;border-radius:0 0 18px 18px;padding:6px 24px 14px;display:none}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:14px 2px;border-bottom:1px solid var(--line-light);font-size:1rem;color:var(--text-light)}
+  .nav-links a:last-child{border-bottom:0}
+  .hero{min-height:auto;padding:104px 0 56px}
+  .hero-art{display:none}
+  .hero-doodle{display:block;position:absolute;top:76px;right:-8px;width:min(62vw,290px);z-index:0;opacity:.9;pointer-events:none}
+  .hero-doodle svg{width:100%;height:auto;display:block}
+  .hero h1,.hero-sub{max-width:none}
+}
+@media(max-width:620px){
+  .wrap{padding:0 20px}
+  .nav .brand{font-size:1rem}
+  .nav .brand small{display:none}
+  .nav.scrolled .brand .name{max-width:140px}
+  .cap-grid{grid-template-columns:1fr}
+  .flow{grid-template-columns:1fr}
+  .flow li{border-left:0;padding-left:0;border-top:1px solid rgba(26,31,23,.1);padding-top:24px}
+  .flow li:first-child{border-top:0}
+  .hero-meta{gap:26px}
+  .cta-inner{padding:54px 24px}
+  .hero-art{display:none}
+  .services-grid{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion: reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .marquee-track{animation:none}
+  .hero-doodle .b1,.hero-doodle .b2,.hero-doodle .b3,.hero-doodle .tw,.hero-doodle .tw2{animation:none}
+  .svc-card:hover .svc-art img{transform:none}
+  *{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="brand" href="index.html">
+    <span class="mark"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"></path><path d="M3 8l9 5 9-5"></path><path d="M12 13v8"></path></svg></span>
+    <span class="name">南北瓦楞紙器<small>SOUTH NORTH PACKAGING</small></span>
+  </a>
+  <div class="nav-links" id="menu">
+    <a href="index.html" aria-current="page">首頁</a>
+    <a href="products.html">產品項目</a>
+    <a href="about.html">關於我們</a>
+  </div>
+  <a class="nav-cta" href="contact.html">來電洽詢</a>
+  <button class="nav-toggle" id="navToggle" type="button" aria-label="開啟選單" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-doodle" aria-hidden="true">
+    <svg viewBox="0 0 300 290" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <!-- 封箱小紙箱（左上，貼膠帶） -->
+      <g class="b2">
+        <path d="M70 44 L108 64 L70 84 L32 64 Z" stroke="rgba(241,244,238,.2)"/>
+        <path d="M32 64 L70 84 L70 114 L32 94 Z" stroke="rgba(241,244,238,.2)"/>
+        <path d="M70 84 L108 64 L108 94 L70 114 Z" stroke="rgba(241,244,238,.2)"/>
+        <line x1="70" y1="44" x2="70" y2="84" stroke="rgba(158,201,74,.4)"/>
+        <line x1="32" y1="64" x2="108" y2="64" stroke="rgba(158,201,74,.4)"/>
+        <line x1="70" y1="84" x2="70" y2="114" stroke="rgba(158,201,74,.4)"/>
+      </g>
+      <!-- 開蓋瓦楞紙箱（中央，微笑） -->
+      <g class="b1">
+        <!-- 後側兩片開蓋 -->
+        <path d="M86 182 L150 150 L142 120 L78 152 Z" stroke="rgba(241,244,238,.2)"/>
+        <path d="M150 150 L214 182 L222 152 L142 120 Z" stroke="rgba(241,244,238,.2)"/>
+        <!-- 前側兩片翻下 -->
+        <path d="M86 182 L150 214 L150 228 L86 196 Z" stroke="rgba(241,244,238,.16)"/>
+        <path d="M150 214 L214 182 L214 196 L150 228 Z" stroke="rgba(241,244,238,.16)"/>
+        <!-- 箱口菱形＋內緣厚度 -->
+        <path d="M150 150 L214 182 L150 214 L86 182 Z" stroke="rgba(241,244,238,.26)"/>
+        <path d="M150 158 L206 182 L150 206 L94 182 Z" stroke="rgba(241,244,238,.15)"/>
+        <!-- 箱身兩面 -->
+        <path d="M86 182 L86 240 L150 272 L150 214 Z" stroke="rgba(241,244,238,.26)"/>
+        <path d="M150 214 L150 272 L214 240 L214 182 Z" stroke="rgba(241,244,238,.26)"/>
+        <!-- 微笑表情 -->
+        <circle cx="111" cy="231" r="3" fill="rgba(158,201,74,.5)" stroke="none"/>
+        <circle cx="132" cy="240" r="3" fill="rgba(158,201,74,.5)" stroke="none"/>
+        <path d="M108 244 Q120 255 133 250" stroke="rgba(158,201,74,.5)"/>
+      </g>
+      <!-- 點綴閃爍 -->
+      <g class="tw" stroke="rgba(158,201,74,.42)"><line x1="246" y1="118" x2="246" y2="130"/><line x1="240" y1="124" x2="252" y2="124"/></g>
+      <g class="tw2" stroke="rgba(158,201,74,.42)"><line x1="250" y1="168" x2="250" y2="178"/><line x1="245" y1="173" x2="255" y2="173"/></g>
+    </svg>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <img class="carousel-slide active" src="hero_boxes.jpg" alt="南北瓦楞紙箱產品 1" />
+        <img class="carousel-slide" src="hero_carousel_2.jpg" alt="南北瓦楞紙箱產品 2" />
+        <img class="carousel-slide" src="hero_carousel_3.jpg" alt="南北瓦楞紙箱產品 3" />
+      </div>
+      <div class="carousel-dots">
+        <span class="dot active" onclick="setSlide(0)"></span>
+        <span class="dot" onclick="setSlide(1)"></span>
+        <span class="dot" onclick="setSlide(2)"></span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-brand reveal">南北瓦楞紙器股份有限公司<small>SOUTH NORTH PACKAGING</small></div>
+    <span class="eyebrow reveal"><span class="dot"></span>瓦楞紙箱 · 刀插板 · 隔板 · 間隔板 · 披薩盒</span>
+    <h1 class="reveal" style="margin-top:18px">為每一件商品，<br>做出剛剛好的<em>瓦楞包裝</em>。</h1>
+    <p class="hero-sub reveal">南北瓦楞紙器自民國 76 年深耕在地。從尺寸圖到出貨與工廠直接溝通，依商品設計合身、耐用、成本到位的紙箱與包材，小量也接單。</p>
+    <div class="hero-actions reveal">
+      <a class="btn-primary" href="products.html">查看產品項目</a>
+      <a class="btn-ghost" href="about.html">認識南北</a>
+    </div>
+    <div class="hero-meta reveal">
+      <div><div class="m-num">民國 76 年</div><div class="m-lbl">創立至今，深耕在地</div></div>
+      <div><div class="m-num">客製開版</div><div class="m-lbl">依箱型與商品設計</div></div>
+      <div><div class="m-num">在地交期</div><div class="m-lbl">就近配送、急單可排</div></div>
+    </div>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<section class="marquee-section">
+  <div class="marquee-label">服務產業 · 從食品到工業零件，合身包裝一手包辦</div>
+  <div class="marquee"><div class="marquee-track" id="marquee-track"></div></div>
+</section>
+
+<!-- CAPABILITY (light) -->
+<section class="section-light cap">
+  <div class="wrap">
+    <div class="cap-head">
+      <div>
+        <span class="eyebrow reveal"><span class="dot"></span>為什麼選我們</span>
+        <h2 class="reveal" style="margin-top:14px">在地工廠的底氣，<br>是反應快、做得實在。</h2>
+      </div>
+      <p class="reveal">不必透過層層中盤。一張尺寸圖、一通電話，就能評估開版與報價，把包裝成本與運送破損一起降下來。</p>
+    </div>
+    <div class="cap-grid">
+      <div class="cap-card reveal">
+        <div class="cap-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"></path><path d="M3 7l9 4 9-4"></path><path d="M12 11v10"></path></svg></div>
+        <h3>客製開版</h3>
+        <p>提供尺寸或樣品，依商品設計箱型、楞型與印刷，不只賣標準箱。</p>
+      </div>
+      <div class="cap-card reveal">
+        <div class="cap-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"></path><path d="M4 7h10"></path><path d="M4 17h7"></path></svg></div>
+        <h3>小量也接</h3>
+        <p>不被起訂量綁住，新創與小店都能合作，先試單再放量。</p>
+      </div>
+      <div class="cap-card reveal">
+        <div class="cap-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"></path><circle cx="12" cy="12" r="9"></circle></svg></div>
+        <h3>穩定品質</h3>
+        <p>進料到出貨層層控管，箱型一致、不破角，讓你安心出貨。</p>
+      </div>
+      <div class="cap-card reveal">
+        <div class="cap-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></div>
+        <h3>在地快速交期</h3>
+        <p>就近配送、急單可排，準時送達不耽誤你的出貨節奏。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (dark) -->
+<section class="services" id="products">
+  <div class="wrap">
+    <div class="services-head">
+      <span class="eyebrow reveal"><span class="dot"></span>產品項目</span>
+      <h2 class="reveal">一個工廠，包辦你需要的箱型。</h2>
+      <p class="reveal">從紙箱、刀插、隔板到披薩盒，依用途與商品特性，挑選最合適的瓦楞包材。</p>
+    </div>
+    <div class="services-grid">
+      <a class="svc-card reveal" href="products.html#corrugated">
+        <div class="svc-art" aria-hidden="true">
+          <img src="corrugated_box.jpg" alt="瓦楞紙箱" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <span class="svc-tag">三層 / 五層</span>
+          <h3>瓦楞紙箱</h3>
+          <p>三層（單瓦）與五層（雙瓦）多種楞型，適合出貨、搬運與一般商品包裝。</p>
+          <span class="svc-arrow">了解更多 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+      <a class="svc-card reveal" href="products.html#divider">
+        <div class="svc-art" aria-hidden="true">
+          <img src="cardboard_dividers.jpg" alt="刀插板・隔板" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <span class="svc-tag">分隔固定</span>
+          <h3>刀插板・隔板・間隔板</h3>
+          <p>分隔多件商品、固定位置並吸收衝擊，降低運送破損率。</p>
+          <span class="svc-arrow">了解更多 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+      <a class="svc-card reveal" href="products.html#pizza">
+        <div class="svc-art" aria-hidden="true">
+          <img src="pizza_box.jpg" alt="披薩盒・食品箱" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <span class="svc-tag">食品用途</span>
+          <h3>披薩盒・食品箱</h3>
+          <p>食品級用途客製，可印刷品牌圖樣，呈現專業形象與外帶體驗。</p>
+          <span class="svc-arrow">了解更多 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+      <a class="svc-card reveal" href="products.html">
+        <div class="svc-art" aria-hidden="true">
+          <img src="heavy_pallet_box.jpg" alt="更多瓦楞包材類型" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <span class="svc-tag">更多類型</span>
+          <h3>重型・棧板箱・客製</h3>
+          <p>重型棧板箱、緩衝內襯與各式客製化包材，依商品與用途開版設計。</p>
+          <span class="svc-arrow">查看全部產品 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS (light) -->
+<section class="section-light proc">
+  <div class="wrap">
+    <div class="proc-head">
+      <span class="eyebrow reveal"><span class="dot"></span>合作流程</span>
+      <h2 class="reveal">從詢價到交貨，四步到位。</h2>
+      <p class="reveal">跳過層層中盤，與工廠直接對話，需求一次說清楚。</p>
+    </div>
+    <ol class="flow reveal">
+      <li><span class="step">01</span><h3>提出需求</h3><p>提供箱型尺寸、數量與用途，或直接附上樣品與尺寸圖。</p></li>
+      <li><span class="step">02</span><h3>開版打樣</h3><p>依需求設計楞型與結構，確認版型、印刷後再進入生產。</p></li>
+      <li><span class="step">03</span><h3>量產製造</h3><p>進料到出貨層層控管，確保箱型一致、強度穩定。</p></li>
+      <li><span class="step">04</span><h3>在地交貨</h3><p>就近配送、急單可排，準時送達不誤你的出貨。</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap">
+    <div class="cta-inner reveal">
+      <span class="eyebrow"><span class="dot"></span>需要報價或樣品</span>
+      <h2>把包裝這件事，交給在地工廠。</h2>
+      <p>告訴我們箱型尺寸、數量與用途，我們會盡快回覆建議與價格。</p>
+      <a class="btn-light" href="contact.html">來電洽詢</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="mark"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"></path><path d="M3 8l9 5 9-5"></path><path d="M12 13v8"></path></svg></span><span>南北瓦楞紙器</span></a>
+        <p>客製化瓦楞紙箱包材製造，成立於民國76年。紙箱、刀插板、隔板、間隔板、披薩盒。</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col"><h4>產品項目</h4><a href="products.html#corrugated">瓦楞紙箱</a><a href="products.html#divider">刀插・隔板</a><a href="products.html#pizza">披薩盒・食品箱</a><a href="products.html#custom">客製化</a></div>
+        <div class="footer-col"><h4>公司</h4><a href="about.html">關於我們</a><a href="about.html#capacity">產能設備</a><a href="contact.html">聯絡我們</a></div>
+        <div class="footer-col"><h4>聯絡</h4><p class="footer-info">電話　02-2267-2650<br>傳真　02-2267-0133<br>Email　dach.hua@msa.hinet.net<br>地址　新北市土城區承天路8巷15號之1</p></div>
+      </div>
+    </div>
+    <div class="footer-bot"><span>© 2026 南北瓦楞紙器股份有限公司 South North Packaging</span><span>以可回收紙材製造 ♺</span></div>
+  </div>
+</footer>
+
+<script>
+  var nav=document.getElementById('nav');
+  function onScroll(){ if(window.scrollY>40)nav.classList.add('scrolled');else nav.classList.remove('scrolled'); }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  // mobile menu toggle
+  var navToggle=document.getElementById('navToggle'),menu=document.getElementById('menu');
+  function setMenu(open){ if(!menu||!navToggle)return; menu.classList.toggle('open',open); navToggle.classList.toggle('open',open); navToggle.setAttribute('aria-expanded',open?'true':'false'); }
+  if(navToggle&&menu){
+    navToggle.addEventListener('click',function(){ setMenu(!menu.classList.contains('open')); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ setMenu(false); }); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape')setMenu(false); });
+  }
+
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.15,rootMargin:'0px 0px -8% 0px'});
+  var rv=document.querySelectorAll('.reveal');
+  for(var i=0;i<rv.length;i++){rv[i].style.transitionDelay=(i%4)*0.06+'s';io.observe(rv[i]);}
+
+  var items=['食品包裝','電商出貨','五金零件','農產蔬果','飲料罐裝','烘焙甜點','3C 電子','物流倉儲'];
+  function boxIcon(){return '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></svg>';}
+  var loop=items.concat(items),html='';
+  for(var j=0;j<loop.length;j++){html+='<div class="logo">'+boxIcon()+'<span>'+loop[j]+'</span></div>';}
+  document.getElementById('marquee-track').innerHTML=html;
+
+  // Hero Carousel
+  var slides = document.querySelectorAll('.carousel-slide');
+  var dots = document.querySelectorAll('.carousel-dots .dot');
+  var currentIndex = 0;
+  var timer = null;
+
+  function showSlide(index) {
+    if (index >= slides.length) index = 0;
+    if (index < 0) index = slides.length - 1;
+    for (var idx = 0; idx < slides.length; idx++) {
+      if (idx === index) {
+        slides[idx].classList.add('active');
+        dots[idx].classList.add('active');
+      } else {
+        slides[idx].classList.remove('active');
+        dots[idx].classList.remove('active');
+      }
+    }
+    currentIndex = index;
+  }
+
+  function nextSlide() {
+    showSlide(currentIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(currentIndex - 1);
+  }
+
+  function startTimer() {
+    stopTimer();
+    timer = setInterval(nextSlide, 3000);
+  }
+
+  function stopTimer() {
+    if (timer) {
+      clearInterval(timer);
+      timer = null;
+    }
+  }
+
+  window.setSlide = function(index) {
+    showSlide(index);
+    startTimer();
+  };
+
+  var carouselEl = document.querySelector('.carousel-container');
+  var startX = 0;
+  var endX = 0;
+
+  if (carouselEl) {
+    carouselEl.addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+      stopTimer();
+    }, {passive: true});
+
+    carouselEl.addEventListener('touchend', function(e) {
+      endX = e.changedTouches[0].clientX;
+      var diff = startX - endX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          nextSlide();
+        } else {
+          prevSlide();
+        }
+      }
+      startTimer();
+    }, {passive: true});
+
+    carouselEl.addEventListener('mouseenter', stopTimer);
+    carouselEl.addEventListener('mouseleave', startTimer);
+  }
+
+  startTimer();
+</script>
+
+
+</body></html>
