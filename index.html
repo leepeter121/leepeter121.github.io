@@ -126,7 +126,7 @@ button{font:inherit;cursor:pointer}
 .carousel-slide{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 0.8s ease-in-out;display:block}
 .carousel-slide.active{opacity:1;z-index:1}
 .carousel-dots{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:10}
-.carousel-dots .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.35);cursor:pointer;transition:all 0.25s ease}
+.carousel-dots .dot{width:8px;height:8px;padding:0;border:0;-webkit-appearance:none;appearance:none;border-radius:50%;background:rgba(255,255,255,0.35);cursor:pointer;transition:all 0.25s ease}
 .carousel-dots .dot:hover{background:rgba(255,255,255,0.7)}
 .carousel-dots .dot.active{background:var(--accent-bright);width:18px;border-radius:4px}
 .hero .wrap{position:relative;z-index:2;width:100%}
@@ -267,6 +267,7 @@ button{font:inherit;cursor:pointer}
 @media (prefers-reduced-motion: reduce){
   .reveal{opacity:1;transform:none;transition:none}
   .marquee-track{animation:none}
+  .carousel-slide{transition:none}
   .hero-doodle .b1,.hero-doodle .b2,.hero-doodle .b3,.hero-doodle .tw,.hero-doodle .tw2{animation:none}
   .svc-card:hover .svc-art img{transform:none}
   *{scroll-behavior:auto}
@@ -343,17 +344,17 @@ button{font:inherit;cursor:pointer}
         <div><div class="m-num">在地交期</div><div class="m-lbl">就近配送、急單可排</div></div>
       </div>
     </div>
-    <div class="hero-art reveal" aria-hidden="true">
+    <div class="hero-art reveal" role="group" aria-label="產品照片輪播">
       <div class="carousel-container">
         <div class="carousel-track">
-          <img class="carousel-slide active" src="hero_boxes.jpg" alt="南北瓦楞紙箱產品 1" />
-          <img class="carousel-slide" src="hero_carousel_2.jpg" alt="南北瓦楞紙箱產品 2" />
-          <img class="carousel-slide" src="hero_carousel_3.jpg" alt="南北瓦楞紙箱產品 3" />
+          <img class="carousel-slide active" src="hero_boxes.jpg" alt="南北瓦楞紙箱成品堆疊" />
+          <img class="carousel-slide" src="hero_carousel_2.jpg" alt="客製化瓦楞紙箱" />
+          <img class="carousel-slide" src="hero_carousel_3.jpg" alt="工廠生產的瓦楞紙箱" />
         </div>
         <div class="carousel-dots">
-          <span class="dot active" onclick="setSlide(0)"></span>
-          <span class="dot" onclick="setSlide(1)"></span>
-          <span class="dot" onclick="setSlide(2)"></span>
+          <button type="button" class="dot active" aria-label="顯示第 1 張產品照片" onclick="setSlide(0)"></button>
+          <button type="button" class="dot" aria-label="顯示第 2 張產品照片" onclick="setSlide(1)"></button>
+          <button type="button" class="dot" aria-label="顯示第 3 張產品照片" onclick="setSlide(2)"></button>
         </div>
       </div>
     </div>
@@ -560,8 +561,10 @@ button{font:inherit;cursor:pointer}
     showSlide(currentIndex - 1);
   }
 
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   function startTimer() {
     stopTimer();
+    if (reduceMotion) return;
     timer = setInterval(nextSlide, 3000);
   }
 
@@ -602,6 +605,8 @@ button{font:inherit;cursor:pointer}
 
     carouselEl.addEventListener('mouseenter', stopTimer);
     carouselEl.addEventListener('mouseleave', startTimer);
+    carouselEl.addEventListener('focusin', stopTimer);
+    carouselEl.addEventListener('focusout', startTimer);
   }
 
   startTimer();
