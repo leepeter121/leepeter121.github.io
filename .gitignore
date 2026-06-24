@@ -1,3 +1,5 @@
 # Open Design 內部檔案（非網站內容，不部署）
 .od-skills/
 *.artifact.json
+# 標註用截圖（預覽留言），非網站內容
+*-drawing-*.png
